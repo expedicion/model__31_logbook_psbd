@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="6210CE20-CE70-F668-248F-F6CD690B338C" name="AUTORZY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9EC61D55-6B60-1830-EB0B-F1EFEED63B47" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="03C40F76-44EA-8C94-8E1C-99946B249D3C" name="AUTORZY_JN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="9EC61D55-6B60-1830-EB0B-F1EFEED63B47" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

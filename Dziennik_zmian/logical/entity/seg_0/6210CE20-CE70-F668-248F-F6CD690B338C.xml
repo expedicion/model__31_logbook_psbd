@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6210CE20-CE70-F668-248F-F6CD690B338C" name="AUTORZY">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:42:23 UTC</createdTime>
+<ownerDesignName>Dziennik_zmian</ownerDesignName>
+<engineerTo>
+<item key="DB873554-5E9D-53A6-F7D4-208208716254" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_AUTORA" id="D1AC90CA-FB2A-ED9F-FB97-7754DDAF8FC4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:42:30 UTC</createdTime>
+<ownerDesignName>Dziennik_zmian</ownerDesignName>
+<engineerTo>
+<item key="DB873554-5E9D-53A6-F7D4-208208716254" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWISKO" id="A49EF769-5825-6D65-0941-3C5F84405358">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:42:38 UTC</createdTime>
+<ownerDesignName>Dziennik_zmian</ownerDesignName>
+<engineerTo>
+<item key="DB873554-5E9D-53A6-F7D4-208208716254" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMIONA" id="A1B45F24-EDD0-7748-2051-729325C181E3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:42:45 UTC</createdTime>
+<ownerDesignName>Dziennik_zmian</ownerDesignName>
+<engineerTo>
+<item key="DB873554-5E9D-53A6-F7D4-208208716254" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYTULY" id="C81207DB-9A3B-CCE4-3584-D624AE21C75D">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:42:52 UTC</createdTime>
+<ownerDesignName>Dziennik_zmian</ownerDesignName>
+<engineerTo>
+<item key="DB873554-5E9D-53A6-F7D4-208208716254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFILIACJA" id="70C81584-1C78-73DC-1BA0-62D414B52604">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:43:08 UTC</createdTime>
+<ownerDesignName>Dziennik_zmian</ownerDesignName>
+<engineerTo>
+<item key="DB873554-5E9D-53A6-F7D4-208208716254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC9B897B-D14E-15AD-367A-0AA4DF489F98" name="AUTORZY PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:42:37 UTC</createdTime>
+<ownerDesignName>Dziennik_zmian</ownerDesignName>
+<engineerTo>
+<item key="DB873554-5E9D-53A6-F7D4-208208716254" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1AC90CA-FB2A-ED9F-FB97-7754DDAF8FC4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
